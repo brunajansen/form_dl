@@ -1,6 +1,5 @@
 var button = document.getElementById('mode_icon');
 const form = document.getElementById('login');
-//var git = document.querySelector('.github');
 
 
 button.addEventListener('click', mode);
@@ -16,7 +15,6 @@ function mode(){
         
         /* e adiciona o dark mode*/
         form.classList.add('dark')
-       // git.src = "imagens/github2.png";
         return;
         
     }
@@ -24,6 +22,5 @@ function mode(){
     button.classList.add('fa-moon')
     button.classList.remove('fa-sun')
     form.classList.remove('dark')
-    //git.src = "imagens/github.png";
 }
 
